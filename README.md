@@ -92,6 +92,8 @@ print(f"Redudancy is : {red}")
 print(f"Variance is : {var}")
 
 # OUTPUT
+![shannofannon python](https://github.com/user-attachments/assets/53b857a2-be75-40cb-8a4a-b64fb868e899)
+
 Average Codeword Length is : 2.625
 
 Entropy is : 2.625
