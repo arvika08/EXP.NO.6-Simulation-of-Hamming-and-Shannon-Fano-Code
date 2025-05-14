@@ -13,16 +13,25 @@ python
 
 # ALGORITHMS
 1. Start
-2. Input symbols and their probabilities.
-3. Sort symbols:
+   
+3. Input symbols and their probabilities.
+   
+5. Sort symbols:
+   
    - Huffman: Ascending order.
+     
    - Shannon-Fano: Descending order.
-4. Generate codewords:
+7. Generate codewords:
+   
    - Huffman: Combine smallest probabilities until one node remains.
+     
    - Shannon-Fano: Split list recursively with near-equal probabilities.
-5. Calculate entropy, average length, efficiency, and redundancy.
-6. Display results.
-7. End
+     
+9. Calculate entropy, average length, efficiency, and redundancy.
+    
+11. Display results.
+    
+13. End
 
 # PROGRAM
 import numpy as np
@@ -92,17 +101,9 @@ print(f"Redudancy is : {red}")
 print(f"Variance is : {var}")
 
 # OUTPUT
+
 ![shannofannon python](https://github.com/user-attachments/assets/53b857a2-be75-40cb-8a4a-b64fb868e899)
 
-Average Codeword Length is : 2.625
-
-Entropy is : 2.625
-
-Efficiency is : 100.0%
-
-Redudancy is : 0.0
-
-Variance is : 0.484
  
 # CONCLUSIONS
 The simulation of Hamming and Shannon-Fano Code was successfully completed using Python, demonstrating effective error detection and correction in Hamming Code and efficient data compression with minimal redundancy in Shannon-Fano Code.
